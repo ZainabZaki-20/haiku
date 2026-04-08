@@ -18,20 +18,11 @@ body {
 }
 
 .grid-container {
-	display:grid;
-	align-items: center;
-	<!--
 	display: grid;
 	/* grid-template-columns: 1fr 1fr 1fr; */
 	grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
 	gap: 2rem;
 	margin: 10% 4rem 0 4rem; 
-	-->
-}
-.oval {
-	padding: 2rem 4 rem;
-	font-size: 3rem;
-	text-align: center;
 }
 .last {
 	padding-bottom: 2rem;
