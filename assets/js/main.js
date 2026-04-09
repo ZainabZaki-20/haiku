@@ -1,6 +1,6 @@
 // main.js
 document.querySelectorAll(".wind").forEach(div => {
-    div.style.opacity = 0.5;
+    div.style.opacity = 0.7;
 });
     
 
